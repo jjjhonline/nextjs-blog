@@ -22,10 +22,10 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Front-end developer with a strong background in creating visuals for various media. My programming expertise lies in HTML5, CSS3, and JavaScript, with proficiency in frameworks such as Next.js and Tailwind CSS. I possess advanced skills in design tools, including Adobe Photoshop, Illustrator, and 3D using Blender, encompassing branding projects, visual identity, print and digital materials. I work effectively in multidisciplinary teams. My design knowledge empowers me to craft highly impactful user interfaces and experiences. My passion for development drives me to stay updated and continually seek knowledge to enhance my projects.</p>
+        <p className='text-center'>Desenvolvedor front-end com sólida experiência na criação de elementos visuais para diversas mídias. Minha especialização em programação abrange HTML5, CSS3 e JavaScript, com proficiência em frameworks como Next.js e Tailwind CSS. Possuo habilidades avançadas em ferramentas de design, incluindo Adobe Photoshop, Illustrator e modelagem 3D com o Blender, abrangendo projetos de branding, identidade visual, materiais impressos e digitais. Trabalho eficazmente em equipes multidisciplinares. Meu conhecimento em design capacita-me a criar interfaces de usuário e experiências altamente impactantes. Minha paixão pelo desenvolvimento me motiva a manter-me atualizado e a buscar constantemente conhecimento para aprimorar meus projetos.</p>
         <p>
-          (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          (Este é um site de exemplo - você estará construindo um site semelhante a este em{' '}
+          <a href="https://nextjs.org/learn">Next.js tutorial</a>.)
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
